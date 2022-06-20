@@ -1,0 +1,23 @@
+@import url("normalize.css");
+
+body {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+}
+
+.item-image {
+}
+
+.item-category {
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #626262;
+}
+
+.restaurant-speed {
+    font-size: 13px;
+    line-height: 21px;
+
+    color: #1D1D1D;
+}

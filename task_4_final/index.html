@@ -10,24 +10,128 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@2.7.1/flexboxgrid2.css">
+
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-<header>
-    <div class="container-xl">
-        <nav class="navbar">
-            <a class="navbar-brand" href="#">
-                <img src="/task_4_final/img/logo.svg" alt="">
-            </a>
-            <div class="d-flex flex-row justify-content-right">
-                <button class="btn border m-2">Войти</button>
-                <button class="btn btn-light m-2 d-none d-sm-block" type="button">
-                    <img src="/task_4_final/img/basket.svg">
-                </button>
+<div class="container-xl">
+    <nav class="navbar">
+        <a class="navbar-brand" href="#">
+            <img src="/task_4_final/img/logo.svg" alt="">
+        </a>
+        <div class="d-flex flex-row justify-content-right">
+            <button class="btn border m-2">Войти</button>
+            <button class="btn btn-light m-2 d-none d-sm-block" type="button">
+                <img src="/task_4_final/img/basket.svg">
+            </button>
+        </div>
+    </nav>
+    <input type="search" class="form-control border-top-0 border-start-0 border-end-0 bg-transparent" placeholder="Поиск по ресторанам и кухням"></input>
+    <h4 class="mt-4">Рестораны в Москве</h4>
+    <div class="container">
+        <div class="row justify-content-evenly">
+            <div class="col-lg-4 col-md-6 col-sx-12">
+                <div class="card mt-3">
+                    <img src="/task_4_final/img/mcdonalds.svg" alt="">
+                    <div class="card-body">
+                        <div class="card-title h6">Макдоналдс — Газетный</div>
+                        <p class="item-category">₽₽ • Бургеры</p>
+                        <p class="restaurant-speed">25 - 35 мин</p>
+                        <a href="#" class="stretched-link"></a>
+                    </div>
+                </div>
             </div>
-        </nav>
-        <input type="search" class="form-control border-top-0 border-start-0 border-end-0 bg-transparent" placeholder="Поиск по ресторанам и кухням"></input>
+            <div class="col-lg-4 col-md-6 col-sx-12">
+                <div class="card mt-3">
+                    <img src="/task_4_final/img/dimsum.svg">
+                    <div class="card-body">
+                        <div class="card-title h6">DimSum & Co — ЦДМ</div>
+                        <p class="item-category">₽ • Японская • Китайская • Азиатская</p>
+                        <p class="restaurant-speed">40 - 50 мин</p>
+                        <a href="#" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sx-12">
+                <div class="card mt-3">
+                    <img src="/task_4_final/img/dviszh.svg">
+                    <div class="card-body">
+                        <div class="card-title h6">ДвижОК — Манежная</div>
+                        <p class="item-category">₽ • Американская • Европейская</p>
+                        <p class="restaurant-speed">35 - 45 мин</p>
+                        <a href="#" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sx-12">
+                <div class="card mt-3">
+                    <img src="/task_4_final/img/nha.svg">
+                    <div class="card-body">
+                        <div class="card-title h6">НЯ — NHA</div>
+                        <p class="item-category">₽₽ • Вьетнамская</p>
+                        <p class="restaurant-speed">30 - 40 мин</p>
+                        <a href="#" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sx-12">
+                <div class="card mt-3">
+                    <img src="/task_4_final/img/tzy.svg">
+                    <div class="card-body">
+                        <div class="card-title h6">Точка Дзы — Цветной</div>
+                        <p class="item-category">₽₽ • Вьетнамская</p>
+                        <p class="restaurant-speed">40 - 50 мин</p>
+                        <a href="#" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sx-12">
+                <div class="card mt-3">
+                    <img src="/task_4_final/img/cinnabon.svg">
+                    <div class="card-body">
+                        <div class="card-title h6">Cinnabon</div>
+                        <p class="item-category">₽ • Выпечка • Десерты • Капкейки</p>
+                        <p class="restaurant-speed">25 - 35 мин</p>
+                        <a href="#" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sx-12">
+                <div class="card mt-3">
+                    <img src="/task_4_final/img/pizzelove.svg">
+                    <div class="card-body">
+                        <div class="card-title h6">PIZZELOVE</div>
+                        <p class="item-category">₽₽ • Пицца</p>
+                        <p class="restaurant-speed">15 - 25 мин</p>
+                        <a href="#" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sx-12">
+                <div class="card mt-3">
+                    <img src="/task_4_final/img/zu.svg">
+                    <div class="card-body">
+                        <div class="card-title h6">Zю кафе — Тверская</div>
+                        <p class="item-category">₽₽ • Японская</p>
+                        <p class="restaurant-speed">25 - 35 мин</p>
+                        <a href="#" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sx-12">
+                <div class="card mt-3">
+                    <img src="/task_4_final/img/bbq.svg">
+                    <div class="card-body">
+                        <div class="card-title h6">Bar BQ Cafe — Манежная</div>
+                        <p class="item-category">₽₽₽ • Европейская</p>
+                        <p class="restaurant-speed">30 - 40 мин</p>
+                        <a href="#" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</header>
+</div>
 
 </body>
 </html>
